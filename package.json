@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Function to test if an Array has its entries as Geometric pron or Arithmetic progression",
   "main": "src/aritGeo.js",
-  "directories":{
+  "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha tests/test.js"
+    "test": "mocha --compilers js:babel-core/register tests/test.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,13 @@
   },
   "homepage": "https://github.com/d-beloved/self-learning-day-0#readme",
   "dependencies": {
+    "babel": "^6.23.0",
     "chai": "^4.1.2",
     "mocha": "^3.5.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }

@@ -6,7 +6,7 @@
 an arithmetic progressiion of geometric progression
 or if it is none of the two progressions*/
 
-module.exports = (aritGeo(array)) => {
+module.exports = function aritGeo(array) {
 
 //checks if the entered value is an array, if it is not, it throws error
 	if (Array.isArray(array) === false) {

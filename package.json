@@ -2,9 +2,12 @@
   "name": "self-learning-day-0",
   "version": "1.0.0",
   "description": "Function to test if an Array has its entries as Geometric pron or Arithmetic progression",
-  "main": "aritGeo.js",
+  "main": "src/aritGeo.js",
+  "directories":{
+    "test": "tests"
+  },
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha tests/test.js"
   },
   "repository": {
     "type": "git",

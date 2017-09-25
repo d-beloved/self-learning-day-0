@@ -1,4 +1,5 @@
-
+  
+  //Import chai
   const assert = require('chai').assert;
 	const aritGeo = require('../src/aritGeo.js');
 

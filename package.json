@@ -1,0 +1,27 @@
+{
+  "name": "self-learning-day-0",
+  "version": "1.0.0",
+  "description": "Function to test if an Array has its entries as Geometric pron or Arithmetic progression",
+  "main": "aritGeo.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-beloved/self-learning-day-0.git"
+  },
+  "keywords": [
+    "TDD",
+    "Javascript"
+  ],
+  "author": "Ayodeji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-beloved/self-learning-day-0/issues"
+  },
+  "homepage": "https://github.com/d-beloved/self-learning-day-0#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}

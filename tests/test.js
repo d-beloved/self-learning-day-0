@@ -1,7 +1,6 @@
 
-  
   const assert = require('chai').assert;
-	const aritGeo = require('aritGeo.js');
+	const aritGeo = require('../src/aritGeo.js');
 
 	describe("aritGeo", function() {
 
